@@ -17,9 +17,9 @@ var definition = {
 	issued_by_definer_only: true,
 	cosigned_by_definer: false,
 	spender_attested: true,
-  attestors: ["ADDRESS1", "ADDRESS2"],
-  fixed_denominations: true,
-  denominations: [
+  	attestors: ["ADDRESS1", "ADDRESS2"],
+ 	fixed_denominations: true,
+  	denominations: [
         {denomination: 1, count_coins: 100},
         {denomination: 2, count_coins: 200},
         {denomination: 5, count_coins: 300}]
